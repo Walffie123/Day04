@@ -41,3 +41,30 @@ body{
     
     background-color: #4EBF9f;
 }
+
+.card-header {
+    background-color: #f2b90c;
+}
+
+.reverse {
+    background-color:#f2b90c;
+    border: #0f0f0f;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+.reverse a{
+    color: black;
+}
+
+.tab-content {
+
+    border-left: 1px solid #ddd;
+    
+    border-right: 1px solid #ddd;
+    
+    border-bottom: 1px solid #ddd;
+    
+    padding: 10px;
+    
+    }
