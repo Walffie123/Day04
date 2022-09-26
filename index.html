@@ -64,9 +64,9 @@
                 </div>
 
                 <div>
-                    <button class="reverse">
-                        <a href="#form">Reverse Table</a>
-                    </button>
+                    <a role="button" class="btn btn-block nav-link btn-warning" data-toggle="tooltip" data-html="true"
+                        title="Or Call us at <br><strong>+852 12345678</strong>" data-placement="bottom"
+                        href="#form">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -151,7 +151,7 @@
                 <div class="container" id="form">
                     <div class="col-sm-8 mx-auto">
                         <div class="card">
-                            <h3 class="card-header text-white text-center">Reserve a Table</h3>
+                            <h3 class="card-header text-white text-center bg-warning">Reserve a Table</h3>
                             <div class="card-body">
                                 <form>
                                     <div class="form-group row">
@@ -273,6 +273,15 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $('[data-toggle="tooltip"]').tooltip();
+
+        });
+    </script>
 </body>
 
 </html>
